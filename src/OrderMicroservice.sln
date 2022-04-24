@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{79C6E12C-D727-4C58-B869-6E09AB88126C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService", "OrderService\OrderService.csproj", "{79C6E12C-D727-4C58-B869-6E09AB88126C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportingService", "ReportingService\ReportingService.csproj", "{5CAA386D-2B03-453E-85E4-A551D15DBD50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportingService", "ReportingService\ReportingService.csproj", "{5CAA386D-2B03-453E-85E4-A551D15DBD50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{8E519CC1-D781-4569-81AE-AA2CBFB81B04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5CAA386D-2B03-453E-85E4-A551D15DBD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CAA386D-2B03-453E-85E4-A551D15DBD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CAA386D-2B03-453E-85E4-A551D15DBD50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E519CC1-D781-4569-81AE-AA2CBFB81B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E519CC1-D781-4569-81AE-AA2CBFB81B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E519CC1-D781-4569-81AE-AA2CBFB81B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E519CC1-D781-4569-81AE-AA2CBFB81B04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

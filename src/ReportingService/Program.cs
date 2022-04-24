@@ -41,7 +41,8 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
-app.UseHttpsRedirection(); // force use https. comment to use postman or File > Settings > Off the SSL certificate verification in General Tab
+//comment out to use gateway on http
+//app.UseHttpsRedirection(); // force use https. comment to use postman or File > Settings > Off the SSL certificate verification in General Tab
 
 app.UseSwagger();
 app.UseSwaggerUI(options =>
