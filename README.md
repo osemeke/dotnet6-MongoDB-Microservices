@@ -3,12 +3,14 @@ Sample implementation of microservice with MongoDB database and Redis Caching
 
 ## Ocelot API Gateway Implementation
 
-Empty project or minimal API
-Install-Package Ocelot
-add ocelot.json configuration
-add Logging
-Ensure CORS is enabled on the services 
-Ensure there is no 403 redirects to https when testing on http 
+- Empty project or minimal API
+- Install-Package Ocelot
+- add ocelot.json configuration
+- add Logging
+- Ensure CORS is enabled on the services 
+- Ensure there is no 403 redirects to https when testing on http 
+
+### Sample .net6 minimal API code
 
 ```csharp
 using Ocelot.DependencyInjection;
