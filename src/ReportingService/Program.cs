@@ -27,6 +27,15 @@ var appsettings = new ConfigurationBuilder()
 
 builder.Services.Configure<AppSettings>(appsettings.GetSection("Settings"));
 
+//added to use in-memory cache
+builder.Services.AddMemoryCache();
+
+//added to use Redis cache
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = "localhost:6379";
+});
+
 
 var app = builder.Build();
 
