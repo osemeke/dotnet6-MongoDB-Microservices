@@ -1,5 +1,5 @@
 # dotnet6-MongoDB-Microservices
-Sample implementation of microservice with MongoDB database and Redis Caching
+Sample implementation of microservice with MongoDB database, Ocelot API gateway and a simple Redis Caching at the reporting service
 
 ## Ocelot API Gateway Implementation
 
